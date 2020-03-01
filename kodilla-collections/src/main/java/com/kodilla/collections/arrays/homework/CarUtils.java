@@ -1,9 +1,5 @@
 package com.kodilla.collections.arrays.homework;
 
-import com.kodilla.collections.interfaces.Circle;
-import com.kodilla.collections.interfaces.Shape;
-import com.kodilla.collections.interfaces.Square;
-import com.kodilla.collections.interfaces.Triangle;
 import com.kodilla.collections.interfaces.homework.*;
 
 public class CarUtils {
@@ -24,5 +20,6 @@ public class CarUtils {
         else
             return "Unknown car name.";
     }
+
 }
 
