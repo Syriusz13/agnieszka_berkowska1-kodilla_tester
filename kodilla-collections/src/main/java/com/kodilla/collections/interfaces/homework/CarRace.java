@@ -24,4 +24,12 @@ public class CarRace {
 
         return car.getSpeed();
     }
+
+    public static int doRaceWithOneIncreace (Car car) {
+
+        car.getSpeed();
+        car.increaseSpeed();
+
+        return car.getSpeed();
+    }
 }

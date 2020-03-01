@@ -15,6 +15,8 @@ public class ShapeApplication {
         for (int i = 0; i < shapes.length; i++)
             shapes[i] = drawShape();
 
+        for (Shape shape : shapes)
+            ShapeUtils.displayShapeInfo(shape);
     }
 
     private static Shape drawShape () {
