@@ -2,7 +2,7 @@ public class LeapYear {
 
     public static void main(String[] args) {
 
-        int year =1734;
+        int year =1100;
         LeapYear leapYear = new LeapYear(); // tworzymy obiekt
         leapYear.isLeapYear(year); // wywołujemy na obiekcie metodę ?? czy to jest potrzebne skoro poniżej robimy to samo
         System.out.println(year + " is a leap year. " + leapYear.isLeapYear(year));

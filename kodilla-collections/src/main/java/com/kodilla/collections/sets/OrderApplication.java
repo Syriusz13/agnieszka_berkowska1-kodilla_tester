@@ -14,10 +14,10 @@ public class OrderApplication {
         orders.add(new Order("3/2019", "Chair", 2.0));
         orders.add(new Order("1/2019", "Iron", 1.0));
 
-        System.out.println(orders.size());
+        System.out.println("Order size: " + orders.size());
 
-        for (:orders) {
-
+        for (Order order:orders) {
+            System.out.println(order);
         }
     }
 }

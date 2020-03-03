@@ -1,11 +1,10 @@
 package com.kodilla.collections.arrays;
 
-import com.kodilla.collections.interfaces.Circle;
-import com.kodilla.collections.interfaces.Shape;
-import com.kodilla.collections.interfaces.Square;
-import com.kodilla.collections.interfaces.Triangle;
-
-import java.util.Random;
+        import com.kodilla.collections.interfaces.Circle;
+        import com.kodilla.collections.interfaces.Shape;
+        import com.kodilla.collections.interfaces.Square;
+        import com.kodilla.collections.interfaces.Triangle;
+        import java.util.Random;
 
 public class ShapeApplication {
 
