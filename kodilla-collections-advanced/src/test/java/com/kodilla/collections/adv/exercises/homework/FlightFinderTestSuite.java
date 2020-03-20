@@ -11,7 +11,6 @@ class FlightFinderTestSuite {
     @Test
     public void testFindFlightsFrom() {
         //given
-
         List<Flight> testFlightsFromWroclaw = new ArrayList<>();
         testFlightsFromWroclaw.add(new Flight("Wrocław", "Warszawa"));
         testFlightsFromWroclaw.add(new Flight("Wrocław", "Kraków"));
