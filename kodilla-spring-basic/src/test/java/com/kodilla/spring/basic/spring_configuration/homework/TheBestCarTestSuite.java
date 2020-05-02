@@ -18,12 +18,6 @@ public class TheBestCarTestSuite {
     @InjectMocks
     private TheBestCar carConfiguration;
 
-    /*@BeforeAll
-    public static void beforeAll () {
-        ApplicationContext context = new AnnotationConfigApplicationContext("com.kodilla.spring.basic.spring_configuration.homework");
-        bean = context.getBean("bestCar",Car.class);
-    }*/
-
     @Test
     public void shouldReturnCarForWinter() {
         //Given

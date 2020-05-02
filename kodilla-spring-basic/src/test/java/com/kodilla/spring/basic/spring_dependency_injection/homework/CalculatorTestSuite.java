@@ -25,12 +25,12 @@ public class CalculatorTestSuite {
 
     @Test
     public void shouldReturnCorrectDifference() {
-        Assertions.assertEquals(4, bean.subtract(6, 2));
+        Assertions.assertEquals(4, bean.substract(6, 2));
     }
 
     @Test
     public void shouldReturnCorrectProduct() {
-         Assertions.assertEquals(4, bean.multiplay(2, 2));
+         Assertions.assertEquals(4, bean.multiply(2, 2));
     }
 
     @Test

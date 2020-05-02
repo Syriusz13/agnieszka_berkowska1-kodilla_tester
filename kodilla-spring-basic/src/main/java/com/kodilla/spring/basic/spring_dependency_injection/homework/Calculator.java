@@ -18,13 +18,13 @@ public class Calculator {
         return sum;
     }
 
-    public double subtract (double a, double b){
+    public double substract(double a, double b){
         double difference = a-b;
         display.display(difference);
         return difference;
     }
 
-    public double multiplay (double a, double b){
+    public double multiply(double a, double b){
         double product = a * b;
         display.display(product);
         return product;
