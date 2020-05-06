@@ -8,5 +8,8 @@ include 'kodilla-advanced-tests'
 include 'kodilla-spring-basic'
 include 'kodilla-rest-api'
 include 'kodilla-rest-api'
+<<<<<<< HEAD
 include 'kodilla-soap'
+=======
+>>>>>>> 6c4285215d117ec8fec6c0b1482d803e23d38054
 
