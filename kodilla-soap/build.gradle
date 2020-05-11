@@ -74,7 +74,10 @@ dependencies {
 }
 
 bootJar {
+<<<<<<< HEAD
     baseName = 'kodilla-soap'
     version =  '1.0.0'
+=======
+>>>>>>> 788efa91d522ca5e29359c0978e32ecd69348c06
     from genJaxb.classesDir
 }
