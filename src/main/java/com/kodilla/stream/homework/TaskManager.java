@@ -1,8 +1,5 @@
 package com.kodilla.stream.homework;
 
-import com.kodilla.stream.UsersManager;
-import com.kodilla.stream.UsersRepository;
-
 import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
