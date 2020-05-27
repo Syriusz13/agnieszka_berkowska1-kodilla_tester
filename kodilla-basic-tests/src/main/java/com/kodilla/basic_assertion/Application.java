@@ -19,7 +19,7 @@ public class Application {
             System.out.println("Sumowanie nie działa poprawnie dla liczb " + a + " i " + b);
         }
 
-        int subtractResult = calculator.subtract(a, b);
+        int subtractResult = calculator.substract(a, b);
         boolean correctSubtract = ResultChecker.assertEquals(-3, subtractResult);
 
         if (correctSubtract = true) {
