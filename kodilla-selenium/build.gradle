@@ -11,6 +11,10 @@ repositories {
 
 dependencies {
     compile group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 3288e951ab0e758ae08719973546f8c8c4c73ab5
 
     compile(group: 'com.github.lewka', name: 'ocular', version: '1.0.5'){
         exclude group: "net.sf", module: "jargs"
@@ -19,3 +23,10 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
 
+<<<<<<< HEAD
+=======
+=======
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
+>>>>>>> 14a925b3ca0a85ffaffca1f2bb6ee3d3e7beb87e
+>>>>>>> 3288e951ab0e758ae08719973546f8c8c4c73ab5
