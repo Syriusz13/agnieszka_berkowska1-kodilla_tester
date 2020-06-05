@@ -40,15 +40,20 @@ public class WalletSteps implements En {
             try {
                 cashier.withdraw(wallet, -200);
             }catch (RuntimeException e){
+<<<<<<< HEAD
                 if (e.getMessage().equals("You can not request negative value")) {
                     answer= "You can not request negative value";
                 }
+=======
+                answer= "You can not request negative value";
+>>>>>>> effd7a4fa14d445d471d60d5c028afdb563ff58f
             }
         });
 
         Then("I should be informed that {string}", (String string) -> {
             Assert.assertEquals(string, this.answer);
         });
+<<<<<<< HEAD
 
         Given("my account has been credited with $100", () -> {
             wallet.deposit(100);
@@ -83,5 +88,7 @@ public class WalletSteps implements En {
         Then("I should be told that {string}", (String string) -> {
             Assert.assertEquals(string, this.answer);
         });
+=======
+>>>>>>> effd7a4fa14d445d471d60d5c028afdb563ff58f
     }
 }
